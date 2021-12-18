@@ -24,7 +24,4 @@ public class CheckPalindromeRecursive {
             }
         }
     }
-    public static void main(String[] args) {
-        System.out.println(isStringPalindrome("harah"));
-    }
 }

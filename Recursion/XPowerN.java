@@ -8,7 +8,4 @@ public class XPowerN {
         int ans=x*power(x, n-1);
         return ans;
     }
-    public static void main(String[] args) {
-        System.out.println(power(0,6));
-    }
 }

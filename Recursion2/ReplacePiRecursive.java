@@ -35,8 +35,4 @@ public class ReplacePiRecursive {
         return ans;
 
     }
-    public static void main(String[] args) {
-        System.out.println(replace2("ipii"));
-    }
-    
 }
