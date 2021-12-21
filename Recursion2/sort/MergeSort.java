@@ -38,11 +38,4 @@ public class MergeSort {
         mergeSort(input, mid+1, ei);
         merge(input,si,ei);
     }
-    public static void main(String[] args) {
-        int arr[]={444,6,3,21,586,24,132,358,57,23,7,46,5634,346};
-        mergeSort(arr, 0, arr.length-1);
-        for(int e: arr){
-            System.out.println(e);
-        }
-    }
 }
