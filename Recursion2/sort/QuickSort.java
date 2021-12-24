@@ -37,11 +37,4 @@ public class QuickSort{
     public static void quickSort(int input[]){
         quickSort(input,0,input.length-1);
     }
-    public static void main(String[] args) {
-        int arr[]={4434,53,56745,2,214,18546542,234548,765433345};
-        quickSort(arr);
-        for(int e: arr){
-            System.out.println(e);
-        }
-    }
 }
