@@ -37,11 +37,4 @@ public class QuickSort {
     public static void sort(int arr[]){
         sort(arr,0,arr.length-1);
     }
-    public static void main(String[] args) {
-        int arr[]={78,56,34,5634,7568,456,587456,9467,7524,73456,355345};
-        sort(arr);
-        for(int e:arr){
-            System.out.println(e);
-        }
-    }
 }
