@@ -23,6 +23,7 @@ public class DuplicateInArray {
 
     // Time Complexity O(n)
     public static int findDuplicate2(int arr[]){
+        MergeSort.sort(arr);
         int sumOfElementsInArr=0;
         for(int i=0;i<arr.length;i++){
             sumOfElementsInArr+=arr[i];

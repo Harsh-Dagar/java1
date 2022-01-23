@@ -12,7 +12,7 @@ public class LinkedListUse {
     }
     //takeInput() will take input until he give -1 as input
 
-      //Time Complexity-> O(n)
+      //Time Complexity-> O(n) 
     public static Node<Integer> takeInput(){
         Node<Integer> head=null;
         Node<Integer> tail=null;
@@ -30,9 +30,8 @@ public class LinkedListUse {
             }
             data=sc.nextInt();
         }
-        sc.close();
         return head;
-    }   
+    }    
     public static int length(Node<Integer>head){
         Node<Integer>temp=head;
         int ans=0;
@@ -70,6 +69,9 @@ public class LinkedListUse {
         return head;
     }
     public static Node<Integer> deleteNode(Node<Integer>head,int pos){
+        if(head==null){
+            return head;
+        }
         Node<Integer>temp=head;
         if(pos==0){
             head=head.next;
