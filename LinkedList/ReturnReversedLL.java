@@ -55,13 +55,14 @@ public class ReturnReversedLL {
         smallAns.tail.next=head;
         head.next=null;
 
+         
         DoubleNode ans=new DoubleNode();
         ans.head=smallAns.head;
         ans.tail=head;
         return ans;
     }
     public static Node<Integer> reverseLLBetter(Node<Integer> head){
-        DoubleNode ans=helperReverseLLBetter(head);
+        DoubleNode ans=helperReverseLLBetter(head );
         return ans.head;
     }
 

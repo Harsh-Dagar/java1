@@ -19,8 +19,7 @@ public class MinimumBracketReversal {
         }
         Stack<Character> s = new Stack<>();
         int ans = 0;
-        int i = 0;
-        for (; i < input.length(); i++) {
+        for (int i = 0; i < input.length(); i++) {
             if (input.charAt(i) == '{') {
                 s.push('{');
             } else if (!s.isEmpty() && s.peek() == '{') {
