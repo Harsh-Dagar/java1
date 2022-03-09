@@ -90,7 +90,7 @@ public class QueueUsingArray {
         return temp;
     }
     public static void main(String[] args) throws Exception {
-        QueueUsingArray q=new QueueUsingArray();
+        // QueueUsingArray q=new QueueUsingArray();
         // q.enqueue(0);
         // q.enqueue(1);
         // for(int i=0;i<10;i++){
