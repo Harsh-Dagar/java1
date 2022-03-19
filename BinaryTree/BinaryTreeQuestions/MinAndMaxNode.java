@@ -20,7 +20,7 @@ public class MinAndMaxNode {
 
     public static Pair<Integer,Integer> getMinAndMax(BinaryTreeNode<Integer> root){
         if(root==null){
-            Pair<Integer,Integer> output=new Pair(Integer.MAX_VALUE,Integer.MAX_VALUE);
+            Pair<Integer,Integer> output=new Pair<>(Integer.MAX_VALUE,Integer.MAX_VALUE);
             return output;
         }
         Pair<Integer,Integer> leftAns=getMinAndMax(root.left);
