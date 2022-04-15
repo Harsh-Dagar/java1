@@ -7,7 +7,6 @@ package RecursionPracticeProblem;
    Note : The order of codes are not important. And input string does not contain 0s.
    Input format :
 */
-
 public class ReturnAllCodesString {
     private static char getChar(int n){
         return (char)('a'+n-1);
