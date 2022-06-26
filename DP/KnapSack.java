@@ -42,4 +42,11 @@ public class KnapSack {
         return storage[0][maxWeight];
         
     }
+    public static void main(String[] args) {
+        int weights[]={1,3,4,6};
+        int values[]={20,30,10,50};
+        int maxWeight=10;
+        System.out.println(knapsack(weights, values, 0, 4, maxWeight));
+        
+    }
 }

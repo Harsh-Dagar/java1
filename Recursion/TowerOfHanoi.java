@@ -21,4 +21,7 @@ public class TowerOfHanoi {
         System.out.println(source+""+destination);
         towerOfHanoi(disks-1, auxiliary,source, destination);
 	}
+    public static void main(String[] args) {
+        towerOfHanoi(3, 'a','b' , 'c');
+    }
 }
