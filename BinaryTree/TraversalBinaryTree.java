@@ -25,4 +25,9 @@ public class TraversalBinaryTree {
         postOrder(root.right);
         System.out.print(" "+root.data);
     }
+    public static void main(String[] args) {
+        BinaryTreeNode<Integer>root= BInaryTreeUse.takeInputLevelWise();
+        inOrder(root);
+
+    }
 }

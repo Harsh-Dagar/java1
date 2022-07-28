@@ -1,8 +1,6 @@
 package sort;
 
 public class MergeSort {
-    // time complexi ty O(nlog(n))
-    // space complexity O(n)
     private static void merge(int arr[],int si,int ei){
         int ans[]=new int[ei-si+1];
         int mid=(si+ei)/2;
@@ -37,7 +35,7 @@ public class MergeSort {
         sort(arr,si,mid);
         sort(arr,mid+1,ei);
         merge(arr,si,ei);
-    }
+    } 
     public static void sort(int arr[]){
         sort(arr,0,arr.length-1);
     }
